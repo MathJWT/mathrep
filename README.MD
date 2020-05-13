@@ -68,3 +68,6 @@ await Contact.findAll({
         }
     }
 })
+
+TESTANDO O GIT REVERT
+VOU MUDAR ISSO DPS DE DAR O GIT REVERT
