@@ -59,7 +59,7 @@ Contact.destroy({
 .then(data => data.json())
 .catch(e => {
     console.log(e)
-})
+})      
 
 await Contact.findAll({
     where: {
@@ -68,6 +68,5 @@ await Contact.findAll({
         }
     }
 })
-
 TESTANDO O GIT REVERT
 VOU MUDAR ISSO DPS DE DAR O GIT REVERT
