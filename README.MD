@@ -50,7 +50,7 @@ if (*.txt) {
     return result;
 };
 
-Contact.destroy({   
+Contact.destroy({
     where: {
         id: user_id,
         name: contact_name
@@ -70,12 +70,4 @@ await Contact.findAll({
 })
 
 TESTANDO O GIT REVERT
-a
-a
-a
-a
-a
-
-using
-git
-revert
+VOU MUDAR ISSO DPS DE DAR O GIT REVERT
