@@ -50,7 +50,7 @@ if (*.txt) {
     return result;
 };
 
-Contact.destroy({   
+Contact.destroy({
     where: {
         id: user_id,
         name: contact_name
@@ -59,7 +59,7 @@ Contact.destroy({
 .then(data => data.json())
 .catch(e => {
     console.log(e)
-})
+})      
 
 await Contact.findAll({
     where: {
@@ -67,15 +67,4 @@ await Contact.findAll({
             [Op.like]: '%ribeiro'
         }
     }
-})
-
-TESTANDO O GIT REVERT
-a
-a
-a
-a
-a
-
-using
-git
-revert
+}
