@@ -15,7 +15,7 @@
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
     "async": "^1.5.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.4.1",
     "connect-flash": "^0.1.1",
